@@ -6,7 +6,7 @@ import pytest
 from appium import webdriver
 
 from connect_20230620.common.data_util import readYaml
-from connect_20230620.data.data_from_json_yaml import read_data_from_json_yaml
+from connect_20230620.data.DataTurn import DataTurn
 from connect_20230620.pageobject.LoginPage import LoginPage
 
 
@@ -20,7 +20,7 @@ class TestLogin:
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub",data["desired_caps"])
 
 
-    @pytest.mark.parametrize('phone,pswd',read_data_from_json_yaml("../data/account.json"))
+    @pytest.mark.parametrize('phone,pswd',DataTurn.read_data_from_json_yaml("../data/account.json"))
     def test_login(self,phone,pswd):
         login_page=LoginPage(driver=self.driver)
         self.driver.implicitly_wait(15)
