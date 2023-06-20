@@ -1,0 +1,7 @@
+desired_caps:
+   platformName: Android
+   platformVersion: 7.1.2
+   deviceName: yjy
+   appPackage: com.km.karaoke
+   appActivity: com.utalk.hsing.activity.StartActivity
+   noReset: False
