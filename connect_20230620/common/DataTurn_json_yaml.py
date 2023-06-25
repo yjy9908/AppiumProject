@@ -29,6 +29,7 @@ class DataTurn:
             # isinstance()是用来判断一个对象的变量类型。dict字典类型
             if isinstance(data, dict):
                 key, value = elem, data[elem]
+                print(elem)
                 if isinstance(value, dict):
                     case_data = [] #初始赋值case_data
                     #遍历value
@@ -45,5 +46,5 @@ class DataTurn:
 
 
 if __name__ == '__main__':
-    DataTurn.read_data_from_json_yaml("../data/account.yaml")
+    DataTurn.read_data_from_json_yaml("../data/account.json")
 
