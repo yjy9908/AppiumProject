@@ -38,6 +38,7 @@ class DataTurn:
                     #创建元组tuple()
                     return_value.append(tuple(case_data))
                 else:
+                    #元组添加元素的方法
                     tuple_value+=(value,)
                     if len(tuple_value)>1:
                         return_value.append(tuple_value)

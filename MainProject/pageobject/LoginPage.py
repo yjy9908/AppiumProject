@@ -2,7 +2,7 @@ import time
 
 from appium.webdriver.common.mobileby import MobileBy
 
-from connect_20230620.base.BasePage import BasePage
+from MainProject.base.BasePage import BasePage
 
 
 class LoginPage(BasePage):
