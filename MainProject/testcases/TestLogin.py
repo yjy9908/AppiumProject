@@ -41,9 +41,15 @@ class TestLogin:
         login_page = LoginPage(driver=self.driver)
         self.driver.implicitly_wait(20)
         login_page.login(phone, pswd)
-        driver = self.driver
+        time.sleep(6)
+        try:
+            #用绝对路径，路径前面加r，表示不转义
+            self.driver.get_screenshot_as_file(r'E:\python_workspace\AppiumProject\MainProject\result\screenshot' +'\\'+nowtime+ "screenshot.png")
+            logging.info("截图成功")
+        except:
+            logging.info("截图失败")
         btn = "//*[@resource-id='showSignInPop']/android.view.View[2]/android.view.View[12]"
-        x1 = WebDriverWait(driver, 5 * 60, 1000).until(EC.visibility_of_element_located((By.XPATH, btn)))
+        x1 = WebDriverWait(self.driver, 5 * 60, 1000).until(EC.visibility_of_element_located((By.XPATH, btn)))
         x1.click()
         assert EC.visibility_of_element_located((By.ID, "com.km.karaoke:id/tab_layout_text_id"))
 
