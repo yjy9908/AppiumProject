@@ -39,5 +39,5 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', 'TestLogin.py', '--alluredir', './result/temp_jsonreport'])
-    os.system("allure generate ./result/temp_jsonreport -o ./result/report/html --clean")
+    pytest.main(['-s', 'TestLogin.py', '--alluredir', '../result/temp_jsonreport'])
+    os.system('allure generate ../result/temp_jsonreport -o ../result/report/html --clean')
