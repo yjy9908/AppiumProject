@@ -1,2 +1,0 @@
-INFO     root:TestLogin.py:34 测试开始
-INFO     root:TestLogin.py:40 用户登录用例执行

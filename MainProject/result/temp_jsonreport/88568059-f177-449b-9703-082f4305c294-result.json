@@ -1,1 +1,0 @@
-{"name": "testlogin[1234567808-123456]", "status": "passed", "parameters": [{"name": "phone", "value": "1234567808"}, {"name": "pswd", "value": "123456"}], "start": 1687853512875, "stop": 1687853938401, "uuid": "bc1ce3be-99e0-47b9-a334-988f21cee8b8", "testCaseId": "824b9bcab66f6f6eb6d602986bde9331", "fullName": "testcases.TestLogin.TestLogin#testlogin"}
