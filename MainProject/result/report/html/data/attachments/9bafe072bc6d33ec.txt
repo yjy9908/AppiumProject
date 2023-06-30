@@ -1,0 +1,2 @@
+INFO     root:TestLogin.py:64 首页滑动用例执行
+INFO     root:TestLogin.py:72 测试用例执行完毕，测试环境正在还原！

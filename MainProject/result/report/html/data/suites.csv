@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jun 28 17:07:07 CST 2023","Wed Jun 28 17:07:27 CST 2023","19722","testcases","TestLogin","TestLogin","","","testlogin",""
-"passed","Wed Jun 28 17:07:27 CST 2023","Wed Jun 28 17:07:37 CST 2023","10097","testcases","TestLogin","TestLogin","","","testslip",""
+"passed","Fri Jun 30 18:03:24 CST 2023","Fri Jun 30 18:03:36 CST 2023","11567","testcases","TestLogin","TestLogin","","","testslip",""
+"passed","Fri Jun 30 18:03:04 CST 2023","Fri Jun 30 18:03:24 CST 2023","20455","testcases","TestLogin","TestLogin","","","testlogin",""
 "passed","Wed Jun 28 17:05:41 CST 2023","Wed Jun 28 17:06:51 CST 2023","69423","","","","","","testlogin",""

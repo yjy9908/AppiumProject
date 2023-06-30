@@ -29,7 +29,7 @@ class TestLogin:
     def setup_class(self):
         rootPath = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
         # 路径拼接
-        path = os.path.join(rootPath, "config\config.yaml")
+        path = os.path.join(rootPath, r"config\config.yaml")
         data = readYaml(path)
         logging.info("测试开始")
         self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", data["desired_caps"])
